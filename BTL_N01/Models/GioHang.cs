@@ -14,6 +14,8 @@ namespace BTL_N01.Models
         public double DonGia { get; set; }
         public int SoLuong { get; set; }
         public int Max { get; set; }
+
+        public int ThanhTien1 { get; set; }
         public double ThanhTien
         {
             get { return DonGia * SoLuong; }
